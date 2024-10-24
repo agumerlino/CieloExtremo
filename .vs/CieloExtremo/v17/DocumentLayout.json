@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\migrations\\20240910140226_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\migrations\\20240910140226_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\vistabusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\vistabusqueda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\contactseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\contactseller.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\quierovender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\quierovender.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\productos\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\productos\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\views\\contact\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\views\\contact\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\models\\formmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\models\\formmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|c:\\users\\agust\\onedrive\\documentos\\proyectoce\\cieloextremo\\migrations\\20240827173659_infovendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C1502A-1E98-4B00-82B7-12C7AB87F767}|CieloExtremo\\CieloExtremo.csproj|solutionrelative:cieloextremo\\migrations\\20240827173659_infovendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\IAuthService.cs",
+              "RelativeToolTip": "CieloExtremo\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:33:23.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\AuthService.cs",
+              "RelativeToolTip": "CieloExtremo\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:33:13.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CieloExtremo\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T00:32:50.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "CieloExtremo\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:09:37.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContactSeller.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\ContactSeller.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\ContactSeller.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\ContactSeller.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\ContactSeller.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T18:08:57.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T20:13:41.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T16:01:15.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Program.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Program.cs",
+              "RelativeToolTip": "CieloExtremo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T21:28:37.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Models\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "CieloExtremo\\Models\\SmtpSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:57:35.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Services\\EmailService.cs",
+              "RelativeToolTip": "CieloExtremo\\Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T18:10:31.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CieloExtremo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:37:11.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAAkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T16:09:08.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T17:49:19.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CieloExtremo\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CieloExtremo\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAAAAUBAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-27T15:59:11.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\appsettings.json",
+              "RelativeDocumentMoniker": "CieloExtremo\\appsettings.json",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\appsettings.json",
+              "RelativeToolTip": "CieloExtremo\\appsettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACwAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-30T21:51:21.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240910140226_1.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Migrations\\20240910140226_1.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Migrations\\20240910140226_1.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Migrations\\20240910140226_1.cs",
+              "RelativeToolTip": "CieloExtremo\\Migrations\\20240910140226_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:02:27.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VistaBusqueda.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\VistaBusqueda.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\VistaBusqueda.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\VistaBusqueda.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\VistaBusqueda.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T17:49:39.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "CieloExtremo\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAALUBAAAAAAAAAAAYwNMBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:23:46.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Details.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Details.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwDoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T16:33:38.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T16:06:27.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Create.cshtml",
+              "ViewState": "AQIAAMMAAAAAAAAAAADwv+sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T16:06:00.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuieroVender.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\QuieroVender.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\QuieroVender.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\QuieroVender.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\QuieroVender.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T15:51:55.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Contact\\Success.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Contact\\Success.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Contact\\Success.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Contact\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T19:13:08.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\Producto.cs",
+              "RelativeToolTip": "CieloExtremo\\Models\\Producto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:04:59.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Success.cshtml",
+              "RelativeDocumentMoniker": "CieloExtremo\\Views\\Productos\\Success.cshtml",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Views\\Productos\\Success.cshtml",
+              "RelativeToolTip": "CieloExtremo\\Views\\Productos\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T19:13:54.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FormModel.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\FormModel.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Models\\FormModel.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Models\\FormModel.cs",
+              "RelativeToolTip": "CieloExtremo\\Models\\FormModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:47:23.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240827173659_infovendedor.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Migrations\\20240827173659_infovendedor.cs",
+              "RelativeDocumentMoniker": "CieloExtremo\\Migrations\\20240827173659_infovendedor.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Documentos\\ProyectoCE\\CieloExtremo\\Migrations\\20240827173659_infovendedor.cs",
+              "RelativeToolTip": "CieloExtremo\\Migrations\\20240827173659_infovendedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:37:06.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

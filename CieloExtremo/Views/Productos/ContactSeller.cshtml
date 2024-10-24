@@ -1,0 +1,32 @@
+﻿@model CieloExtremo.Models.Producto
+
+<div class="container ">
+    <br />
+    <br />
+    <h2 class="text-center ">Contactar al vendedor de <br /> @Model.nombre</h2>
+    <br />
+    <form asp-action="SendToSeller" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <div class="form-group mb-3">
+            <label for="nombre">Tu nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="email">Tu correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="telefono">Tu teléfono</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="mensaje">Deja un mensaje para el vendedor de este producto</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+    </form>
+</div>

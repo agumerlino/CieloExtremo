@@ -1,0 +1,862 @@
+/*Fuentes de la pag*/
+@font-face {
+    font-family: 'Commons Pro Expanded';
+    src: url('/fonts/commons_pro_expanded.woff2') format('woff2'), 
+         url('/fonts/commons_pro_expanded.woff') format('woff'), 
+         url('/fonts/commons_pro_expanded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans.woff2') format('woff2'),
+         url('/fonts/OpenSans.woff') format('woff'),
+         url('/fonts/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black Ops';
+    src: url('/fonts/BlackOpsOne.woff2') format('woff2'),
+         url('/fonts/BlackOpsOne.woff') format('woff'),
+         url('/fonts/BlackOpsOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.titulo-explicativo {
+    font-family: 'Commons Pro Expanded', sans-serif;
+    font-weight: bold;
+}
+.texto-explicativo {
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo {
+    font-family: 'Open Sans', sans-serif;
+}
+#botonWPP {
+    position: relative; /* Necesario para la posición relativa de la imagen de fondo */
+    overflow: hidden; /* Asegura que la imagen de fondo no se desborde fuera del botón */
+}
+
+    /* Asegúrate de que el contenido del botón esté por encima de la imagen de fondo */
+    #botonWPP > img {
+        position: relative;
+        z-index: 1;
+    }
+
+    #botonWPP > span {
+        position: relative;
+        z-index: 1;
+    }
+/* Estilos para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    #botonWPP img {
+        height: 30px;
+        width: 30px;
+    }
+
+    #botonWPP span {
+        font-size: 12px;
+    }
+    .slider img {
+        width: 100%; /* Las imágenes se ajustan al ancho del contenedor */
+        height: auto; /* La altura se ajusta automáticamente manteniendo la relación de aspecto */
+        object-fit: cover; /* Las imágenes se cortarán si es necesario para llenar completamente el contenedor */
+    }
+}
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media (max-width: 576px) {
+    #botonWPP img {
+        height: 25px;
+        width: 25px;
+    }
+
+    #botonWPP span {
+        font-size: 11px;
+    }
+}
+.nombre-truncado {
+    display: block; /* Asegura que el texto se comporte como un bloque */
+    max-width: 100%; /* Ajusta el ancho máximo al del contenedor */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que sobrepasa el ancho del contenedor */
+    text-overflow: ellipsis; /* Agrega "..." al final del texto truncado */
+    color: black;
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+textarea.form-control {
+    resize: vertical; /* Permite redimensionar verticalmente el área de texto */
+    min-height: 150px; /* Establece una altura mínima */
+}
+/* Estilo para el contenedor de descripción */
+.description-container {
+    word-wrap: break-word; /* Rompe palabras largas para evitar desbordamiento */
+    overflow-wrap: break-word; /* Compatibilidad adicional para romper palabras largas */
+    max-width: 100%; /* Asegura que el contenedor no se expanda más allá del ancho de su contenedor principal */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total del elemento */
+    padding: 10px; /* Espacio interno opcional */
+   
+}
+.nombre-producto:hover {
+color: gray; /* Color del enlace cuando se pasa el cursor */
+
+}
+/* Estilos generales */
+html, body, main {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative; /* Añade posición relativa para el contenedor principal */
+    padding-bottom: 100px;
+    background-color: #054066;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+.mainrender {
+    width: 100%;
+    justify-content: center;
+}
+
+.container-render {
+    width: 100vw;
+    justify-content: center;
+    background-color: #e0f1fa;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
+}
+
+footer.footer {
+    position: static; /* Cambia a posición absoluta */
+    bottom: 0; /* Coloca el footer al fondo */
+    width: 100%; /* Ancho completo */
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+.media-imagen {
+    display: flex; /* Usamos Flexbox */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes dentro del contenedor */
+    height: 100%; /* Asegura que el contenedor tenga una altura suficiente para que el centrado vertical funcione */
+    margin-right:auto;
+    margin-left:auto;
+
+
+}
+
+.media-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #e0f1fa;
+}
+.imagecelu {
+    margin-left: 10%;
+    margin-right: 5%;
+    max-height: 300px;
+}
+.imagepc {
+    margin-top:5em;
+    max-height:50%;
+    height:200px; /* Mantener la relación de aspecto */
+    margin-left:10px;
+}
+.text {
+    background-color: #e0f1fa;
+    padding: 2rem;
+}
+.text-home {
+    background-color: #054066;
+    padding: 2rem;
+}
+.media-content {
+    flex: 1;
+    padding-right:2.5rem;
+    max-width: 950px;
+}
+.search-results-header {
+    font-family: 'Open Sans', sans-serif;
+}
+.custom-font-button {
+    font-family: 'Black Ops', sans-serif;
+    background-color: #0685c5;
+    border-radius: 20px;
+    flex-shrink: 1; /* Permite que el botón se encoja si es necesario */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.media-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+    .media-content p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top:auto;
+}
+
+    .social-icons a {
+        color: #000;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+.media-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+    .media-image img {
+        max-width: 100%;
+        height: auto;
+    }
+/* Estilos de la cuadrícula */
+/* Estilos de la cuadrícula */
+.grid-container {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    justify-content: center;
+    
+    overflow:hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: grid;
+    gap: 0px;
+}
+    .grid-item:hover {
+        transform: scale(1.05); /* Aumenta el tamaño del elemento */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra para resaltar el elemento */
+    }
+/* Estilo para pantallas grandes (mostrando hasta 6 columnas) */
+@media (min-width: 768px) {
+    .grid-container.destacados {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el tamaño de las columnas */
+    }
+}
+
+/* Estilo para pantallas pequeñas (máximo 2 columnas) */
+@media (max-width: 767.98px) {
+    .grid-container.destacados {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+    }
+}
+/* Estilo general para la grilla de productos destacados */
+.grid-container.destacados {
+    display: grid;
+    gap: 1rem; /* Espacio entre los elementos de la grilla */
+    padding: 1rem;
+}
+
+    /* Estilo específico para los elementos de la grilla de productos destacados */
+    .grid-container.destacados .grid-item {
+        position: relative;
+        width: 100%;
+        padding-top: 100%; /* Mantiene una relación de aspecto 1:1 (cuadrada) */
+        background-size: cover; /* Asegura que la imagen cubra el contenedor */
+        background-position: center; /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+    }
+
+    /* Estilo para el enlace dentro de cada grid-item (cubre toda el área) */
+    .grid-container.destacados .link-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        text-indent: -9999px; /* Oculta el texto del enlace pero mantiene el área clicable */
+    }
+/* Estilos de productos */
+
+.product-index {
+    background-color: white; /* Color de fondo específico */
+    height: 300px; /* Altura automática para adaptarse al contenido */
+    position: relative;
+    overflow: hidden;
+    padding: 20px; /* Espacio interno para el contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; /* Bordes redondeados del producto */
+    justify-content: space-between;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:280px;
+    justify-content: center;
+}
+
+.product-image img {
+    max-width: 200px; /* La imagen es 10px más chica que el producto (5px de cada lado) */
+    height: 170px;
+    border-radius: 10px; /* Bordes redondeados de la imagen */
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.product-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .product-details nombre-truncado {
+        color: black;
+    }
+    .product-details p {
+        font-size: 20px;
+        margin-bottom: 1px;
+        font-weight: bold;
+    }
+
+.product-actions {
+    margin-top: 1px; /* Espacio superior entre acciones y detalles del producto */
+    margin-bottom: 3px;
+    
+}
+.btn-contact {
+    display: inline-flex; /* Asegura que el botón ocupe todo el ancho disponible */
+    padding: 6px 30px;
+    font-family: 'Black Ops', sans-serif;
+    background-color: #0685c5;
+    border-radius: 20px;
+    flex-shrink: 1; /* Permite que el botón se encoja si es necesario */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+    .btn-details {
+        font-family: 'Black Ops', sans-serif;
+        background-color: #0685c5;
+        border-radius: 20px;
+        flex-shrink: 1; /* Permite que el botón se encoja si es necesario */
+        white-space: nowrap;
+        color: #fff;
+        border: none;
+        padding: 6px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 5px;
+    }
+
+/* Estilos para PC */
+@media (min-width: 768px) {
+    header {
+        background-color: #054066 !important;
+    }
+    nav {
+        background-color: #054066 !important;
+        width: 100%; /* La imagen ocupa el 100% del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+    .navbar-nav {
+        background-color: #054066 !important;
+        padding-left: 30px;
+        padding-right: 30px;
+   
+    }
+    .logo {
+        max-width: 78px; /* Tamaño máximo de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+    .nav-link {
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas automáticamente */
+        text-align: center;
+        color: white !important;
+        font-family: 'Commons Pro Expanded', sans-serif;
+        background-color: #054066;
+        font-weight: bold;
+    }
+    .a {
+        padding-top: 1%;
+    }
+    .nav-link::after {
+        content: ''; /* Contenido adicional */
+        display: block; /* Lo convierte en un bloque separado */
+        margin-top: 0.5em; /* Espacio entre líneas */
+        font-family: 'Commons Pro Expanded', sans-serif;
+        background-color: #054066;
+        color: white;
+        font-weight: bold;
+    }
+    /* Estilos del menú desplegable personalizado */
+    .custom-dropdown-content {
+        display: none; /* Oculta el contenido del menú desplegable por defecto */
+        position: absolute; /* Posicionamiento absoluto para el menú */
+        background-color: #054066;
+        min-width: 160px; /* Ancho mínimo del menú desplegable */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra del menú desplegable */
+        z-index: 1; /* Índice z para que esté sobre otros elementos */
+        border-radius: 4px; /* Bordes redondeados */
+        color: white !important;
+    }
+
+    .custom-dropdown:hover .custom-dropdown-content {
+        display: block; /* Muestra el contenido del menú desplegable al hacer hover */
+        font-family: 'Commons Pro Expanded', sans-serif;
+        background-color: #054066;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    .custom-dropdown {
+        position: relative; /* Posicionamiento relativo para el menú desplegable */
+        display: inline-block; /* Elemento en línea con bloque */
+        background-color: #054066; /* Color de fondo del menú desplegable */
+        border: none; /* Borde del menú desplegable */
+        color: white !important; /* Color de texto del menú desplegable */
+        padding: 8px 16px; /* Espaciado interior del menú desplegable */
+        font-size: 14px; /* Tamaño de fuente del menú desplegable */
+        cursor: pointer; /* Cursor tipo puntero al pasar sobre el menú desplegable */
+        border-radius: 4px; /* Bordes redondeados del menú desplegable */
+        transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    }
+
+    .custom-dropdown-content a {
+        color: white !important; /* Color de texto de los elementos del menú desplegable */
+        padding: 12px 16px; /* Espaciado interior de los elementos del menú desplegable */
+        text-decoration: none; /* Sin subrayado en los enlaces del menú desplegable */
+        display: block; /* Elementos de menú como bloques completos */
+        transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    }
+
+        .custom-dropdown-content a:hover {
+            background-color: #e0f1fa; /* Color de fondo al pasar sobre los elementos del menú desplegable */
+        }
+
+    /* Estilos del formulario en la barra de navegación */
+    .navbar-collapse form {
+        margin-left: auto; /* Mueve el formulario hacia la derecha */
+    }
+
+        .navbar-collapse form input[type="search"] {
+            border-radius: 4px; /* Bordes redondeados del campo de búsqueda */
+            padding: 8px; /* Espaciado interior del campo de búsqueda */
+            border: 1px solid #ced4da; /* Borde del campo de búsqueda */
+            background-color: #fff; /* Color de fondo del campo de búsqueda */
+            color: #495057; /* Color de texto del campo de búsqueda */
+            transition: border-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out; /* Transiciones suaves */
+            font-size: 14px; /* Tamaño de fuente del campo de búsqueda */
+        }
+
+            .navbar-collapse form input[type="search"]:focus {
+                border-color: #80bdff; /* Color del borde al hacer foco en el campo de búsqueda */
+                outline: 0; /* Elimina el contorno al hacer foco */
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra al hacer foco */
+            }
+
+        .navbar-collapse form button[type="submit"] {
+            background-color: #007bff; /* Color de fondo del botón de envío */
+            color: #fff; /* Color de texto del botón de envío */
+            border: 1px solid #007bff; /* Borde del botón de envío */
+            border-radius: 4px; /* Bordes redondeados del botón de envío */
+            padding: 8px 16px; /* Espaciado interior del botón de envío */
+            transition: background-color 0.9s ease-in-out, border-color 0.9s ease-in-out; /* Transiciones suaves */
+            font-size: 14px; /* Tamaño de fuente del botón de envío */
+        }
+
+            .navbar-collapse form button[type="submit"]:hover {
+                background-color: #0056b3; /* Color de fondo al pasar sobre el botón de envío */
+                border-color: #0056b3; /* Color del borde al pasar sobre el botón de envío */
+            }
+    .search-form {
+        position: relative;
+        display: flex; /* Usar flexbox para alinear elementos */
+        align-items: center; /* Centra verticalmente los elementos */
+        justify-content: center; /* Centra horizontalmente los elementos */
+    }
+
+    .search-input {
+        width: 0;
+        opacity: 0;
+        transition: width 0.9s ease, opacity 0.9s ease;
+        position: absolute;
+        right: 0;
+        flex: 1; /* Hace que el input ocupe todo el espacio disponible */
+    }
+    .search-icon {
+        width: 35px;
+        height : auto;
+    }
+    .search-btn {
+        border: none;
+        background: none;
+        cursor: pointer; /* Cambiar el cursor a pointer */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem; /* Añadir relleno para facilitar el clic */
+        position: relative; /* Asegura que el botón no afecte la posición del input */
+        z-index: 1; /* Asegura que el botón esté por encima del input */
+        
+    }
+
+    .search-btn i {
+        pointer-events: none; /* Asegurarse de que el icono no interfiera con el clic del botón */
+    }
+
+.search-form.expanded .search-input {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    opacity: 1;
+    position: static;
+}
+    
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767.98px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 1200px;
+        margin: 2%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .grid-item {
+        justify-content: center;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: grid;
+        gap: 0px;
+    }
+    
+        .contact{
+            padding: 6px 12px; /* Ajusta el padding para botones aún más pequeños */
+
+        }
+        .media-imagen img{
+            display:none;
+        }
+    .publish-button .btn {
+        width: 90%; /* El botón ocupará el 80% del ancho */
+        margin-left: 5%; /* Deja un margen del 10% a cada lado */
+        margin-right: 5%;
+        font-size: 1.5em; /* Reduce el tamaño de fuente en pantallas pequeñas */
+        overflow: hidden;
+    }
+
+    @media (max-width: 570px) {
+        .publish-button .btn {
+            font-size: 1.2em; /* Ajuste adicional en pantallas muy pequeñas */
+            padding: 0.2em 0.2em; /* El padding también se ajusta proporcionalmente */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .publish-button .btn {
+            font-size: 1em; /* Ajuste adicional en pantallas muy pequeñas */
+            padding: 0.7em 0.9em; /* El padding también se ajusta proporcionalmente */
+        }
+    }
+    @media (max-width: 767.98px) {
+        @media (max-width: 420px) {
+            .publish-button .btn {
+                font-size: 0.9em;
+                padding: 0.7em 0.9em;
+            }
+        }
+    }
+   
+
+    @media (max-width: 394px) {
+        .publish-button .btn {
+            font-size: 0.9em; /* Ajuste adicional en pantallas muy pequeñas */
+            padding: 0.5em 0.1em; /* El padding también se ajusta proporcionalmente */
+        }
+    }
+    @media (max-width: 380px) {
+        .publish-button .btn {
+            font-size: 0.8em; /* Ajuste adicional en pantallas muy pequeñas */
+            padding: 0.5em 0.1em; /* El padding también se ajusta proporcionalmente */
+        }
+    }
+    
+    .logo {
+        max-width: 78px; /* Tamaño máximo de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+    .nav-link {
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas automáticamente */
+        text-align: center;
+        color: white !important;
+        font-family: 'Commons Pro Expanded', sans-serif;
+        background-color: #054066;
+        font-weight: bold;
+    }
+    .navbar-nav .nav-item {
+        text-align: center; /* Centra los elementos del menú de navegación */
+        margin: 5px 0; /* Espacio entre elementos del menú de navegación */
+        font-family: 'Commons Pro Expanded', sans-serif;
+        font-weight: bold;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Cambia el color de las líneas a blanco */
+    }
+
+    .dropdown-toggle-icon::after {
+        display: none !important; /* Oculta el icono de desplegar en los elementos desplegables */
+    }
+
+    .navbar-nav .nav-item.dropdown {
+        position: static; /* Posición estática para los elementos desplegables */
+    }
+
+    .dropdown-menu.show {
+        max-height: 500px; /* El valor debe ser mayor que la altura máxima de tus submenús */
+        
+    }
+
+    .dropdown-menu {
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.8s ease-in-out;
+    }
+
+    .navbar-nav .nav-item.dropdown .dropdown-menu {
+        position: static; /* Posición estática para el menú desplegable */
+        float: none; /* Sin flotación */
+        width: auto; /* Ancho automático */
+        margin: 0; /* Sin margen */
+        background-color: transparent; /* Fondo transparente */
+        border: none; /* Sin borde */
+        box-shadow: none; /* Sin sombra */
+        text-align: center; /* Alineación centrada del texto */
+        font-family: 'Commons Pro Expanded', sans-serif;
+        font-weight: bold;
+    }
+
+        .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+            text-align: center; /* Alineación centrada del texto de los elementos del menú desplegable */
+            padding-left: 1rem; /* Espacio a la izquierda de los elementos del menú desplegable */
+            padding-right: 1rem; /* Espacio a la derecha de los elementos del menú desplegable */
+            white-space: nowrap; /* Evita que el texto se divida en varias líneas automáticamente */
+            color: #e0f1fa;
+            font-family: 'Commons Pro Expanded', sans-serif;
+            background-color: #054066;
+            font-weight: bold;
+        }
+
+    /* Estilos del formulario en la barra de navegación para dispositivos móviles */
+    .navbar-collapse form {
+        margin-left: auto; /* Mueve el formulario hacia la derecha */
+        margin-right: auto; /* Espacio entre el formulario y el resto de los elementos */
+    }
+
+        .navbar-collapse form input[type="search"] {
+            border-radius: 4px; /* Bordes redondeados del campo de búsqueda */
+            padding: 8px; /* Espaciado interior del campo de búsqueda */
+            border: 1px solid #ced4da; /* Borde del campo de búsqueda */
+            background-color: #fff; /* Color de fondo del campo de búsqueda */
+            color: #495057; /* Color de texto del campo de búsqueda */
+            transition: border-color 1s ease-in-out, box-shadow 1s ease-in-out; /* Transiciones suaves */
+            font-size: 14px; /* Tamaño de fuente del campo de búsqueda */
+        }
+
+            .navbar-collapse form input[type="search"]:focus {
+                border-color: #80bdff; /* Color del borde al hacer foco en el campo de búsqueda */
+                outline: 0; /* Elimina el contorno al hacer foco */
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra al hacer foco */
+            }
+
+        .navbar-collapse form button[type="submit"] {
+            background-color: #007bff; /* Color de fondo del botón de envío */
+            color: #fff; /* Color de texto del botón de envío */
+            border: 1px solid #007bff; /* Borde del botón de envío */
+            border-radius: 4px; /* Bordes redondeados del botón de envío */
+            padding: 8px 16px; /* Espaciado interior del botón de envío */
+            transition: background-color 1s ease-in-out, border-color 1s ease-in-out; /* Transiciones suaves */
+            font-size: 14px; /* Tamaño de fuente del botón de envío */
+        }
+
+            .navbar-collapse form button[type="submit"]:hover {
+                background-color: #0056b3; /* Color de fondo al pasar sobre el botón de envío */
+                border-color: #0056b3; /* Color del borde al pasar sobre el botón de envío */
+            }
+ 
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%; /* Asegura que el contenedor se ajuste al tamaño de la pantalla */
+    overflow: hidden;
+    background-color: #054066;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    opacity: 1;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Mostrar las flechas al pasar el mouse por encima del contenedor */
+.slider-container:hover .prev, .slider-container:hover .next {
+    opacity: 1;
+}
+
+.slider-dots {
+    text-align: center;
+    margin-top: 10px;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #054066;
+}
+
+.slider-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+    .slider-dot.active {
+        background-color: #717171;
+    }
+
+    .container-fluid{
+        background-color: #054066
+    }
+
+/* DETALLE PRODUCTO */
+/* Estilo para las imágenes en miniatura */
+.thumb-img {
+    cursor: pointer;
+    transition: border-color 0.3s;
+    border-radius:3px;
+}
+
+    .thumb-img:hover {
+        border-color: #007bff;
+    }
+.main-image-container {
+    position: relative;
+    width: 100%;
+}
+
+    .main-image-container .main-image {
+        width: 100%;
+        height: auto; /* Mantiene la relación de aspecto */
+    }
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9.2px; /* Espacio entre miniaturas */
+}
+
+    .thumbnail-container img {
+        flex: 1 0 auto; /* Ajusta las miniaturas para que se ajusten en una fila */
+        max-width: calc(100% / 6 - 8px); /* Acomoda el ancho para 6 miniaturas con espacio incluido */
+        height: auto;
+    }
+
+/* Estilo para el título del producto */
+.product-title {
+    font-size: 2rem;
+    font-family: 'Black Ops', sans-serif;
+    text-transform: uppercase;
+}
+.text-success {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.row{
+    padding: 30px;
+
+}
+.contact {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #054066;
+    border-radius: 10px;
+    flex-shrink: 1; /* Permite que el botón se encoja si es necesario */
+    white-space: nowrap;
+    border: none;
+}

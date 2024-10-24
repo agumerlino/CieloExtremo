@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CieloExtremo.Models.Producto>
+
+@{
+    ViewData["Title"] = ViewData["Title"] ?? "Todos los productos";
+}
+
+<div class="text">
+    <h3 class="titulo" style="color: black">
+        @ViewData["Title"]
+    </h3>
+
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <p>
+                <a asp-action="Create">Create New</a>
+            </p>
+        }
+    }
+</div>
+
+<div class="grid-container">
+    @foreach (var item in Model)
+    {
+        <div class="grid-item">
+            <div class="product-index">
+                <div class="product-content">
+                    <div class="product-image">
+                        <img src="@Url.Content("~/img/Productos/" + item.foto1)" alt="@item.nombre" />
+                    </div>
+                    <div class="product-details">
+                        <a class="nombre-producto" asp-action="Details" asp-route-id="@item.Id" asp-controller="Productos" style="color:black">
+                            <h2 class="uppercase-text nombre-truncado">@item.nombre</h2>
+                        </a>
+                        <p><i>@item.precio</i></p>
+                        <div class="product-actions">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="btn-details" asp-action="Edit" asp-route-id="@item.Id">EDITAR</a>
+                                <a class="btn-details" asp-action="Delete" asp-route-id="@item.Id">ELIMINAR</a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Productos" asp-action="Details" asp-route-id="@item.Id" class="btn-contact">VER MAS</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

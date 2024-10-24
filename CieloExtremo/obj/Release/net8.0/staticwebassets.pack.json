@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\CieloExtremo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CieloExtremo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\BlackOpsOne.ttf",
+      "PackagePath": "staticwebassets\\fonts\\BlackOpsOne.ttf"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\BlackOpsOne.woff",
+      "PackagePath": "staticwebassets\\fonts\\BlackOpsOne.woff"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\OpenSans.ttf",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans.ttf"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\OpenSans.woff",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans.woff"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\commons_pro_expanded.otf",
+      "PackagePath": "staticwebassets\\fonts\\commons_pro_expanded.otf"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\fonts\\commons_pro_expanded.woff",
+      "PackagePath": "staticwebassets\\fonts\\commons_pro_expanded.woff"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\Flyers\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\Flyers\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\Flyers\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\Flyers\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\5.JPG",
+      "PackagePath": "staticwebassets\\img\\Flyers\\5.JPG"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\6.JPG",
+      "PackagePath": "staticwebassets\\img\\Flyers\\6.JPG"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\7.JPG",
+      "PackagePath": "staticwebassets\\img\\Flyers\\7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Flyers\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\Flyers\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\PC.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\PC.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\celu.PNG",
+      "PackagePath": "staticwebassets\\img\\Logo\\celu.PNG"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\foot.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\foot.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\tel.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\tel.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Logo\\wpp.png",
+      "PackagePath": "staticwebassets\\img\\Logo\\wpp.png"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Productos\\23fe8a5c21be4fb581ea5e7596b4acee.jpeg",
+      "PackagePath": "staticwebassets\\img\\Productos\\23fe8a5c21be4fb581ea5e7596b4acee.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Productos\\7358faee1e804d95a38769690a5ab9f5.jpeg",
+      "PackagePath": "staticwebassets\\img\\Productos\\7358faee1e804d95a38769690a5ab9f5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Productos\\db0d1dc0a88d4a728c05552c2bf40788.jpeg",
+      "PackagePath": "staticwebassets\\img\\Productos\\db0d1dc0a88d4a728c05552c2bf40788.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Productos\\e155be17cb474981837e2466586a42be.jpeg",
+      "PackagePath": "staticwebassets\\img\\Productos\\e155be17cb474981837e2466586a42be.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\img\\Productos\\f0c97433d4754c62bb164b5fef9e0580.jpeg",
+      "PackagePath": "staticwebassets\\img\\Productos\\f0c97433d4754c62bb164b5fef9e0580.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\agust\\source\\repos\\CieloExtremo\\CieloExtremo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.CieloExtremo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.CieloExtremo.props",
+      "PackagePath": "build\\CieloExtremo.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CieloExtremo.props",
+      "PackagePath": "buildMultiTargeting\\CieloExtremo.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.CieloExtremo.props",
+      "PackagePath": "buildTransitive\\CieloExtremo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

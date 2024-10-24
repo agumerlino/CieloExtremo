@@ -1,0 +1,235 @@
+﻿@model CieloExtremo.Models.Producto
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="text-center">
+    <h1 class="display-4">Subir producto</h1>
+</div>
+
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            
+            <!-- Nombre -->
+            <div class="form-group">
+                <label asp-for="nombre" class="control-label"></label>
+                <input asp-for="nombre" class="form-control" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+
+            <!-- Descripción -->
+            <div class="form-group">
+                <label asp-for="descripcion" class="control-label"></label>
+                <textarea asp-for="descripcion" class="form-control" rows="5" placeholder="Ingrese la descripción..."></textarea>
+                <span asp-validation-for="descripcion" class="text-danger"></span>
+            </div>
+
+            <!-- Precio -->
+            <div class="form-group">
+                <label asp-for="precio" class="control-label"></label>
+                <div class="input-group">
+                    <input asp-for="precio" class="form-control" />
+                    <div class="input-group-append">
+                        <select class="form-control" name="moneda">
+                            <option value="U$D">U$D</option>
+                            <option value="AR$">AR$</option>
+                        </select>
+                    </div>
+                </div>
+                <span asp-validation-for="precio" class="text-danger"></span>
+            </div>
+
+            <!-- Categoría -->
+            <div class="form-group">
+                <label asp-for="categoria" class="control-label"></label>
+                <select id="categoria" asp-for="categoria" class="form-control">
+                    <option value="PARACAIDISMO">PARACAIDISMO</option>
+                    <option value="PARAPENTE">PARAPENTE</option>
+                    <option value="AERONAUTICOS">AERONAUTICOS</option>
+                    <option value="OTROS">OTROS</option>
+                </select>
+                <span asp-validation-for="categoria" class="text-danger"></span>
+            </div>
+
+            <!-- Subcategoría -->
+            <div class="form-group" id="subcategoriaContainer" style="display: none;">
+                <label asp-for="subcategoria" class="control-label"></label>
+                <select id="subcategoria" asp-for="subcategoria" class="form-control">
+                    <!-- Opciones serán mostradas dinámicamente -->
+                </select>
+                <span asp-validation-for="subcategoria" class="text-danger"></span>
+            </div>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="telefonoVendedor" class="control-label"> Telefono del vendedor</label>
+                <input asp-for="telefonoVendedor" class="form-control" />
+                <span asp-validation-for="telefonoVendedor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="mailVendedor" class="control-label">Mail del vendedor</label>
+                <input asp-for="mailVendedor" class="form-control" />
+                <span asp-validation-for="mailVendedor" class="text-danger"></span>
+            </div>
+
+            <!-- Fotos del producto -->
+            <div class="form-group">
+                <label for="foto1Input" class="control-label">Foto 1:</label>
+                <div id="foto1PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto1Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto1Input" name="foto1" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="foto2Input" class="control-label">Foto 2:</label>
+                <div id="foto2PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto2Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto2Input" name="foto2" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="foto3Input" class="control-label">Foto 3:</label>
+                <div id="foto3PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto3Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto3Input" name="foto3" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto3" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="foto4Input" class="control-label">Foto 4:</label>
+                <div id="foto4PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto4Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto4Input" name="foto4" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto4" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="foto5Input" class="control-label">Foto 5:</label>
+                <div id="foto5PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto5Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto5Input" name="foto5" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto5" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="foto6Input" class="control-label">Foto 6:</label>
+                <div id="foto6PreviewContainer" style="margin-bottom: 10px;">
+                    <img id="foto6Preview" src="" alt="Preview" style="display: none; max-width: 100px;" />
+                </div>
+                <input id="foto6Input" name="foto6" type="file" class="form-control" accept="image/*" />
+                <span asp-validation-for="foto6" class="text-danger"></span>
+            </div>
+
+            <br />
+            <!-- Destacar -->
+            <div class="form-group">
+                <div class="form-check">
+                    <input asp-for="destacar" class="form-check-input" type="checkbox" />
+                    <label class="form-check-label" asp-for="destacar">Destacar</label>
+                </div>
+                <span asp-validation-for="destacar" class="text-danger"></span>
+            </div>
+            <br />
+            <!-- Botón de Crear -->
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="justify-content-center d-flex">
+    <a  href="javascript:history.back()">Volver</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Selecciona los elementos del DOM necesarios
+            var categoriaSelect = document.getElementById('categoria');
+            var subcategoriaSelect = document.getElementById('subcategoria');
+            var subcategoriaContainer = document.getElementById('subcategoriaContainer');
+
+            // Define las opciones de subcategoría por categoría
+            var opcionesPorCategoria = {
+                'PARACAIDISMO': ['Arnes-Velas', 'Cascos', 'Altimetros', 'Ropa'],
+                'PARAPENTE': ['Arnes-Velas', 'Accesorios', 'Ropa'],
+                'AERONAUTICOS': ['Accesorios', 'Ropa'],
+                'OTROS': ['Camaras', 'Ropa']
+            };
+
+            // Función para actualizar las subcategorías según la categoría seleccionada
+            function actualizarSubcategorias() {
+                var categoriaSeleccionada = categoriaSelect.value;
+                var opciones = opcionesPorCategoria[categoriaSeleccionada] || [];
+
+                // Limpia las opciones anteriores
+                subcategoriaSelect.innerHTML = '';
+
+                // Añade las nuevas opciones
+                opciones.forEach(function (opcion) {
+                    var option = document.createElement('option');
+                    option.textContent = opcion;
+                    option.value = opcion;
+                    subcategoriaSelect.appendChild(option);
+                });
+
+                // Muestra u oculta el contenedor de subcategorías
+                subcategoriaContainer.style.display = opciones.length > 0 ? 'block' : 'none';
+            }
+
+            // Función para actualizar la vista previa de la imagen
+            function updatePreview(inputId, previewId) {
+                var input = document.getElementById(inputId);
+                var preview = document.getElementById(previewId);
+
+                input.addEventListener('change', function () {
+                    var file = input.files[0];
+                    if (file) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            preview.src = e.target.result;
+                            preview.style.display = 'block'; // Muestra la miniatura
+                        };
+
+                        reader.readAsDataURL(file);
+                    } else {
+                        preview.style.display = 'none'; // Oculta la miniatura si no hay archivo
+                    }
+                });
+            }
+
+            // Asigna el evento de cambio al selector de categoría
+            categoriaSelect.addEventListener('change', actualizarSubcategorias);
+
+            // Inicializa la actualización de subcategorías y las vistas previas de las imágenes
+            actualizarSubcategorias();
+
+            // Inicializa las vistas previas para los campos de carga de archivos
+            updatePreview('foto1Input', 'foto1Preview');
+            updatePreview('foto2Input', 'foto2Preview');
+            updatePreview('foto3Input', 'foto3Preview');
+            updatePreview('foto4Input', 'foto4Preview');
+            updatePreview('foto5Input', 'foto5Preview');
+            updatePreview('foto6Input', 'foto6Preview');
+        });
+    </script>
+}
+
+

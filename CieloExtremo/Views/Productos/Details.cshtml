@@ -1,0 +1,80 @@
+﻿@model CieloExtremo.Models.Producto
+
+@{
+    ViewData["Title"] = "Detalle de Producto";
+}
+
+<div class="container">
+    <div class="row">
+        <!-- Imagen principal -->
+        <div class="col-md-6">
+            <div class="main-image-container mb-3">
+                <img id="mainImage" src="@Url.Content("~/img/Productos/" + Model.foto1)" class="main-image img-fluid rounded shadow" alt="Imagen del Producto">
+            </div>
+            <div class="thumbnail-container">
+                <!-- Miniaturas (6 imágenes adicionales) -->
+                @if (!string.IsNullOrEmpty(Model.foto1))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto1)" class="thumb-img" alt="Imagen 1">
+                }
+                @if (!string.IsNullOrEmpty(Model.foto2))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto2)" class="thumb-img" alt="Imagen 2">
+                }
+                @if (!string.IsNullOrEmpty(Model.foto3))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto3)" class="thumb-img" alt="Imagen 3">
+                }
+                @if (!string.IsNullOrEmpty(Model.foto4))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto4)" class="thumb-img" alt="Imagen 4">
+                }
+                @if (!string.IsNullOrEmpty(Model.foto5))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto5)" class="thumb-img" alt="Imagen 5">
+                }
+                @if (!string.IsNullOrEmpty(Model.foto6))
+                {
+                    <img src="@Url.Content("~/img/Productos/" + Model.foto6)" class="thumb-img" alt="Imagen 6">
+                }
+            </div>
+        </div>
+
+        <!-- Detalles del producto -->
+        <div class="col-md-6 mt-5">
+            <h2 class="product-title text-center">@Model.nombre</h2>
+            <h4 class="text-success my-3 text-center"> @Model.precio</h4>
+            <br />
+            <br />
+            <div class="d-grid gap-2">
+                <a class="btn btn-primary mb-2 contact d-flex align-items-center justify-content-center w-100" href="https://wa.me/@Model.telefonoVendedor">
+                    <img src="~/img/Logo/wpp.png" alt="WhatsApp" style="height: 35px; width: 35px; margin-right: 8px;">
+                    <span class="text-nowrap">CONTACTAR VIA WPP</span>
+                </a>
+                <a class="btn btn-primary contact d-flex align-items-center justify-content-center w-100" asp-controller="Productos" asp-action="ContactSeller" asp-route-id="@Model.Id">
+                    <img src="~/img/Logo/tel.png" alt="Teléfono" style="height: 35px; width: 35px; margin-right: 8px;">
+                    <span class="text-nowrap">CONTACTAR VIA MAIL</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-4">
+        <div class="col-12 description-container">
+            <h5>DESCRIPCIÓN:</h5>
+            <p>@Model.descripcion</p>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const thumbnails = document.querySelectorAll('.thumb-img');
+        const mainImage = document.getElementById('mainImage');
+
+        thumbnails.forEach(thumb => {
+            thumb.addEventListener('click', function () {
+                mainImage.src = this.src;
+            });
+        });
+    });
+</script>

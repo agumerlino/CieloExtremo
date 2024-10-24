@@ -1,0 +1,187 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["AlertMessage"]
+    </div>
+}
+<head>
+    <link rel="preload"  as="image" href="~/img/Flyers/1.jpg">
+    <link rel="preload"  as="image" href="~/img/Flyers/2.jpg">
+    <link rel="preload"  as="image" href="~/img/Flyers/3.jpg">
+    <link rel="preload"  as="image" href="~/img/Flyers/4.jpg">
+</head>
+<div class="slider-container">
+    <div id="slider" class="slider">
+        <div class="slide"><img id="slide-img-0" src="~/img/Flyers/1.jpg" alt="Flyer 1"></div>
+        <div class="slide"><img id="slide-img-1" src="~/img/Flyers/2.jpg" alt="Flyer 2"></div>
+        <div class="slide"><img id="slide-img-2" src="~/img/Flyers/3.jpg" alt="Flyer 3"></div>
+        <div class="slide"><img id="slide-img-3" src="~/img/Flyers/4.jpg" alt="Flyer 4"></div>
+        <!-- Agrega más imágenes según sea necesario -->
+
+    </div>
+    <div id="dots" class="slider-dots"></div>
+    <div class="prev">&#10094;</div>
+    <div class="next">&#10095;</div>
+</div>
+<div class="media-section d-flex flex-column flex-lg-row justify-content-between">
+    <div class="media-content d-flex flex-column">
+        <h6 class="titulo-explicativo">CIELOEXTREMO ARG</h6>
+        <h2 class="titulo-explicativo">QUIENES SOMOS Y QUE HACEMOS?</h2>
+        <p class="texto-explicativo">
+            Bienvenido a CIELO EXTREMO! La unica tienda web de PARACAIDISMO, PARAPENTE Y ACCESORIOS PARA PILOTOS en Argentina. 
+            ¿Queres comprar o vender tus productos nuevos o usados? En Cielo Extremo, te ofrecemos la oportunidad de publicar y vender tu producto sin cobrarte Comisión por venta. 
+            <b>¡PUBLICA TU PRODUCTO AHORA! </b>Toca aqui abajo y dejanos tu mensaje.
+        </p>
+        <div class="social-icons d-flex flex-column flex-md-row justify-content-between">
+            <div class="publish-button">
+                <a asp-action="QuieroVender" asp-controller="Productos" class="btn btn-primary custom-font-button" style="color: white;">PUBLICAR MI PRODUCTO AHORA</a>
+            </div>
+            <div class="social-icons"">
+            <a href="https://www.facebook.com/cieloextremoarg?mibextid=LQQJ4d&rdid=UR1aMppGHAVxTX7M" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/cieloextremo.arg/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Agrega más iconos de redes sociales según sea necesario -->
+            </div>
+        </div>
+    </div>
+    <div class="media-imagen d-flex justify-content-center">
+            <img src="~/img/logo/PC.png" alt="IMAGEN DE COMPUTADORA" class="imagepc" />
+            <img src="~/img/logo/celu.PNG" alt="IMAGEN CELULAR" class="imagecelu" />
+            
+        
+    </div>
+</div>
+
+<div class="text-home">
+    <h1 class="titulo-explicativo" style="color: white">Productos destacados</h1>
+
+    <div class="grid-container destacados">
+        @foreach (var item in Model)
+        {
+            <div class="grid-item destacados" style="background-image: url('@Url.Content("~/img/Productos/" + item.foto1)');">
+                <a href="@Url.Action("Details", "Productos", new { id = item.Id })" class="link-overlay"></a>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var slideIndex = 0;
+        var slides = $('.slide');
+        var totalSlides = slides.length;
+        var startX, endX;
+
+        // Función para mostrar el slide actual
+        function showSlide(index) {
+            if (index < 0) {
+                slideIndex = totalSlides - 1;
+            } else if (index >= totalSlides) {
+                slideIndex = 0;
+            }
+
+            slides.hide(); // Oculta todos los slides
+            slides.eq(slideIndex).fadeIn(); // Muestra el slide actual
+
+            updateDots(slideIndex); // Actualiza el dot activo
+        }
+
+        // Función para avanzar al siguiente slide
+        function nextSlide() {
+            slideIndex++;
+            showSlide(slideIndex);
+        }
+
+        // Función para retroceder al slide anterior
+        function prevSlide() {
+            slideIndex--;
+            showSlide(slideIndex);
+        }
+
+        // Función para actualizar los dots
+        function updateDots(index) {
+            $('.slider-dot').removeClass('active'); // Remueve la clase active de todos los dots
+            $('.slider-dot').eq(index).addClass('active'); // Agrega la clase active al dot correspondiente
+        }
+
+        // Crear los dots dinámicamente
+        for (var i = 0; i < totalSlides; i++) {
+            var dot = $('<span class="slider-dot"></span>');
+            $('#dots').append(dot);
+        }
+
+        // Controladores de eventos para los dots
+        $('.slider-dot').click(function () {
+            var dotIndex = $(this).index();
+            slideIndex = dotIndex;
+            showSlide(slideIndex);
+        });
+
+        // Controladores de eventos para las flechas de navegación
+        $('.next').click(function () {
+            nextSlide();
+        });
+
+        $('.prev').click(function () {
+            prevSlide();
+        });
+
+        // Mostrar el primer slide al cargar la página
+        showSlide(slideIndex);
+
+        // Autoplay del slider
+        var autoplayInterval = setInterval(nextSlide, 5000); // Cambia cada 5 segundos
+
+        // Pausar autoplay al pasar el mouse sobre el slider
+        $('.slider-container').hover(
+            function () {
+                clearInterval(autoplayInterval);
+            },
+            function () {
+                autoplayInterval = setInterval(nextSlide, 5000);
+            }
+        );
+
+        // Función para cambiar las imágenes según el tamaño de pantalla
+        function updateImagesForScreenSize() {
+            if (window.innerWidth <= 768) { // Pantallas pequeñas
+                $('#slide-img-0').attr('src', './img/Flyers/5.JPG');                
+                $('#slide-img-1').attr('src', './img/Flyers/6.JPG');
+                $('#slide-img-2').attr('src', './img/Flyers/7.JPG');
+                $('#slide-img-3').attr('src', './img/Flyers/8.jpg');
+            } else { // Pantallas grandes
+                $('#slide-img-0').attr('src', './img/Flyers/1.jpg');
+                $('#slide-img-1').attr('src', './img/Flyers/2.jpg');
+                $('#slide-img-2').attr('src', './img/Flyers/3.jpg');
+                $('#slide-img-3').attr('src', './img/Flyers/4.jpg');
+            }
+        }
+
+        // Ejecutar al cargar la página y cuando se redimensiona la ventana
+        updateImagesForScreenSize();
+        $(window).resize(updateImagesForScreenSize);
+
+        // Función para detectar el deslizamiento (swipe) en pantallas táctiles
+        $('#slider').on('touchstart', function (e) {
+            startX = e.originalEvent.touches[0].clientX; // Obtiene la posición X inicial
+        });
+
+        $('#slider').on('touchmove', function (e) {
+            endX = e.originalEvent.touches[0].clientX; // Obtiene la posición X en movimiento
+        });
+
+        $('#slider').on('touchend', function () {
+            var distance = startX - endX; // Calcula la distancia deslizada
+            if (distance > 50) {
+                // Deslizó hacia la izquierda
+                nextSlide();
+            } else if (distance < -50) {
+                // Deslizó hacia la derecha
+                prevSlide();
+            }
+        });
+    });
+</script>
